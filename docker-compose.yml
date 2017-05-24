@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  saluthi:
+    image: node:6.10-alpine
+    command: yarn start
+    working_dir: /usr/src/app
+    volumes:
+      - .:/usr/src/app
+    ports:
+      - '80:3000'
