@@ -3,6 +3,7 @@ version: '3'
 services:
   saluthi:
     image: node:6.10-alpine
+    user: node
     command: yarn start
     working_dir: /usr/src/app
     volumes:
