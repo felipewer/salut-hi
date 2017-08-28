@@ -1,617 +1,768 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="pt-BR">
+<html dir="ltr" lang="en-US">
 <head>
 
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta name="author" content="Salut Hi" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-
-	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-	<link rel="manifest" href="/manifest.json">
-	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-	<meta name="apple-mobile-web-app-title" content="Salut Hi">
-	<meta name="application-name" content="Salut Hi">
-	<meta name="theme-color" content="#ffffff">
 
 	<!-- Stylesheets
 	============================================= -->
-	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
+	<link href="http://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700|PT+Sans:400,700|PT+Serif:400,400i" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
 	<link rel="stylesheet" href="style.css" type="text/css" />
-	<link rel="stylesheet" href="css/dark.css" type="text/css" />
-	<link rel="stylesheet" href="css/icomoon.css" type="text/css" />
+  <link rel="stylesheet" href="css/dark.css" type="text/css" />
+  
+  <link rel="stylesheet" href="css/icomoon.css" type="text/css" />
+
+	<!-- Barber Demo Specific Stylesheet -->
+	<link rel="stylesheet" href="demos/barber/barber.css" type="text/css" />
+	<link rel="stylesheet" href="demos/barber/css/fonts.css" type="text/css" />
+	<!-- / -->
+
 	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
 	<link rel="stylesheet" href="css/animate.css" type="text/css" />
 	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
-	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
-	<link rel="stylesheet" href="css/colors.css" type="text/css" />
-	<link rel="stylesheet" href="css/custom.css" type="text/css" />
 
+	<link rel="stylesheet" href="one-page/css/et-line.css" type="text/css" />
+
+	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<!--[if lt IE 9]>
+		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	<![endif]-->
+
+	<link rel="stylesheet" href="demos/barber/css/colors.css" type="text/css" />
 
 	<!-- Document Title
 	============================================= -->
 	<title>Salut Hi</title>
 
 </head>
-
-<body class="stretched" data-loader="4">
-
-	<!-- Document Wrapper
-	============================================= -->
-	<div id="wrapper" class="clearfix">
+<body class="stretched">
+  
+  <!-- Document Wrapper
+  ============================================= -->
+  <div id="wrapper" class="clearfix">
 
 		<!-- Header
 		============================================= -->
-		<header id="header" class="transparent-header page-section dark">
-			<div id="header-wrap">
-				<div class="container clearfix">
-					<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+    <header id="header" 
+      class="transparent-header dark static-sticky"
+      data-sticky-class="not-dark"
+      data-sticky-offset="full"
+      data-sticky-offset-negative="60"
+      data-responsive-class="not-dark">
+      
+      <div id="header-wrap">
 
-					<!-- Logo
-					============================================= -->
-					<div id="logo">
-						<a href="#" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="images/logo.png" alt="Salut Hi Logo"></a>
-						<a href="#" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/logo@2x.png" alt="Salut Hi Logo"></a>
-					</div>
-					<!-- #logo end
+        <div class="container norightpadding clearfix">
 
-					<!-- Primary Navigation
-					============================================= -->
-					<nav id="primary-menu">
-						<ul class="one-page-menu">
-							<li class="current"><a href="#" data-href="#header"><div>Home</div></a></li>
-							<li><a href="#" data-href="#section-about"><div>Sobre</div></a></li>
-							<li><a href="#" data-href="#section-services"><div>Serviços</div></a></li>
-							<li><a href="#" data-href="#section-pricing"><div>Preços</div></a></li>
-							<li><a href="#" data-href="#section-contact"><div>Contato</div></a></li>
-						</ul>
-					</nav><!-- #primary-menu end -->
-				</div>
-			</div>
+          <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
 
-		</header><!-- #header end -->
+          <!-- Logo
+          ============================================= -->
+          <div id="logo">
+            <a href="index.html" class="standard-logo">
+              <img src="images/logo.png" alt="Salut Hi Logo">
+            </a>
+            <a href="index.html" class="retina-logo">
+              <img src="images/logo@2x.png" alt="Salut Hi Logo">
+            </a>
+          </div><!-- #logo end -->
 
-		<section id="page-title"
-			class="page-title-parallax page-title-dark page-title-center"
-			style="background-image: url('images/home.jpg'); background-repeat: no-repeat; background-size: cover;">
+          <!-- Primary Navigation
+          ============================================= -->
+          <nav id="primary-menu" class="not-dark style-2 center">
 
-			<div class="container clearfix">
-          <h1>Idiomas sob Medida</h1>
+            <ul class="one-page-menu" data-easing="easeInOutExpo" data-speed="1300" data-offset="60">
+              <li class="active"><a href="#" data-href="#wrapper">Início</a></li>
+              <li><a href="#" data-offset="56" data-href="#service">Serviços</a></li>
+              <li><a href="#" data-href="#pricing">Preços</a></li>
+              <li><a href="#" data-href="#testimonial">Testemunhos</a></li>
+              <li><a href="#" data-href="#contact">Contato</a></li>
+              <li>
+                <a href="#"
+                  data-scrollto="#contact"
+                  data-offset="62"
+                  data-easing="easeInOutExpo"
+                  data-speed="1300" class="button button-color reverse clearfix">
+                  <i class="icon-calendar2"></i> Agendamento
+                </a>
+              </li>
+            </ul>
 
-          <div class="divider divider-short divider-center topmargin-lg"></div>
+          </nav><!-- #primary-menu end -->
 
-					<div class="bottommargin">
-						<a data-toggle="modal"
-							data-target="#contactFormModal"
-							class="button button-rounded button-border button-white button-light button-large">
-							Aula Experimental <i class="icon-angle-right"></i>
-						</a>
-					</div>
-			</div>
+        </div>
 
-		</section><!-- #page-title end -->
+      </div>
 
+    </header><!-- #header end -->
+      
+		<!-- Slider
+		============================================= -->
+		<section id="slider" class="slider-parallax page-section full-screen clearfix">
+      
+      <div class="slider-parallax-inner"
+        style="background: url('images/london.jpg') center center no-repeat; background-size: cover;">
+        <div class="vertical-middle center" style="z-index: 2;">
+          <img src="images/slider-logo.svg" alt="Logo" height="180">
+
+          <!-- Slider Navigation
+          ============================================= -->
+          <nav class="custom-hero-nav">
+            <ul class="one-page-menu" data-easing="easeInOutExpo" data-speed="1300" data-offset="60">
+              <li class="active"><a href="#" data-href="#slider">Início</a></li>
+              <li><a href="#" data-offset="56" data-href="#service">Serviços</a></li>
+              <li><a href="#" data-href="#pricing">Preços</a></li>
+              <li><a href="#" data-href="#testimonial">Testemunhos</a></li>
+              <li><a href="#" data-href="#contact">Contato</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <!-- Slider Appointment Button
+        ============================================= -->
+        <a href="#"
+          class="button button-large button-color button-appointment hidden-sm hidden-xs"
+          data-scrollto="#contact"
+          data-offset="62"
+          data-easing="easeInOutExpo"
+          data-speed="1300">
+          <i class="icon-calendar2"></i> Agende uma Aula Gratuita
+        </a>
+
+        <!-- Slider Social Icons
+        ============================================= -->
+        <div class="slider-social hidden-sm hidden-xs clearfix">
+          <a href="https://www.facebook.com/saluthilang" target="_blank" class="social-icon si-small si-borderless si-facebook">
+            <i class="icon-facebook"></i>
+            <i class="icon-facebook"></i>
+          </a>
+          <a href="https://www.instagram.com/salut.hi" target="_blank" class="social-icon si-small si-borderless si-instagram">
+            <i class="icon-instagram"></i>
+            <i class="icon-instagram"></i>
+          </a>
+        </div>
+
+        <div class="video-wrap" style="position: absolute; height: 100%; z-index: 1;">
+          <div class="video-overlay" style="background: rgba(0,0,0,0.3);"></div>
+        </div>
+      </div>
+
+    </section>
+      
 		<!-- Content
 		============================================= -->
-		<section id="content">
+		<section id="content" style="border-top: 8px solid #fc895c">
 
-			<div class="content-wrap">
-
-				<section id="section-about" class="page-section">
-
-					<div class="container clearfix">
-
-						<div class="heading-block center">
-							<h2>Salut <span>Hi</span></h2>
-							<span>Aprenda Inglês e Francês no seu ritmo</span>
-						</div>
-
-						<div class="col_one_third nobottommargin">
-							<div class="feature-box media-box">
-								<div class="fbox-media">
-									<img src="images/about/essencia.jpg" alt="Essência">
-								</div>
-								<div class="fbox-desc">
-									<h3>Troca de experiências</h3>
-									<p class="justified">Acredito que todos têm algo a ensinar e algo a aprender e
-										sou apaixonada pela troca de conhecimento. Enquanto ensino
-										idiomas, tenho a oportunidade de aprender com meus alunos sobre
-										os mais variados assuntos.</p>
-								</div>
-							</div>
-						</div>
-
-						<div class="col_one_third nobottommargin">
-							<div class="feature-box media-box">
-								<div class="fbox-media">
-									<img src="images/about/ensino.jpg" alt="Ensino">
-								</div>
-								<div class="fbox-desc">
-									<h3>Foco na comunicação</h3>
-									<p class="justified">As aulas são focadas na comunicação, usando temas de interesse do aluno.
-										Você aprende exatamente o que precisa para sua vida pessoal e profissional
-										e pode aplicar o conteúdo em seu dia-a-dia, desde a primeira aula.</p>
-								</div>
-							</div>
-						</div>
-
-						<div class="col_one_third nobottommargin col_last">
-							<div class="feature-box media-box">
-								<div class="fbox-media">
-									<img src="images/about/estrutura.jpg" alt="Estrutura">
-								</div>
-								<div class="fbox-desc">
-									<h3>Conteúdo personalizado</h3>
-									<p class="justified">Aulas <strong>100% online</strong> por videoconfência em horários flexíveis.
-										Utilizo material próprio, desenvolvido individualmente para cada aluno, que
-										conta com textos, vídeos, jogos, exercícios e discussões.</p>
-								</div>
-							</div>
-						</div>
-
-						<div class="clear"></div>
-
-					</div>
-
-					<div class="container clearfix">
-						<div class="divider divider-center"><i class="icon-star3"></i></div>
-					</div>
-
-					<div class="container clearfix">
-
-						<div class="col_one_sixth bottommargin"></div>
-						<div class="col_two_third bottommargin">
-
-							<div class="team team-list clearfix">
-								<div class="team-image">
-									<img src="images/team/lari.jpg" alt="Larissa Klober">
-								</div>
-								<div class="team-desc">
-									<div class="team-title"><h4>Larissa Klober</h4><span>Professora</span></div>
-									<div class="team-content justified">
-										Ensino inglês e francês há 7 anos e há 2 tenho me dedicado ao ensino via internet.
-										Nesse período, tive a oportunidade de trabalhar com alunos de 6 a 60 anos,
-										com os mais diferentes sonhos, habilidades e dificuldades.
-										Descobri nesse percurso que cada pessoa é única e por isso defendo também um ensino único,
-										onde cada um possa estudar no seu ritmo e de acordo com o conteúdo que vai realmente utilizar na sua vida.
-									</div>
-									<a href="https://www.linkedin.com/in/larissaklober" class="social-icon si-rounded si-small si-linkedin">
-										<i class="icon-linkedin"></i>
-										<i class="icon-linkedin"></i>
-									</a>
-								</div>
-							</div>
-						</div>
-
-						<div class="col_one_sixth col_last bottommargin"></div>
-					</div>
-
-					<div class="clear"></div>
-
-				</section>
-
-				<div class="section nomargin dark" style="background-color: #333333; padding: 50px 0;">
-
-					<div class="container clearfix">
-
-						<div class="col_half nobottommargin">&nbsp;</div>
-
-						<div class="col_half nobottommargin col_last">
-
-							<div class="fslider testimonial nobgcolor noborder noshadow nopadding"
-								data-animation="fade"
-								data-arrows="false"
-								data-pause="30000">
-								<div class="flexslider">
-									<div class="slider-wrap">
-										<div class="slide">
-											<div class="testi-content">
-												<p>Fiz aula com a professora Larissa por quase 1 ano,
-													foi um período de muito aprendizado.
-													Larissa sempre planejou as aulas e sempre trazia
-													conteúdos que abordavam assuntos que me interessam,
-													como yoga, meditação e viagens. Além das aulas planejadas,
-													o que as tornava ainda mais interessantes eram os aplicativos,
-													websites e canais do youtube que Larissa sempre indicava para
-													que eu pudesse estudar sozinha. Dessa forma, estudar inglês se
-													tornou um dos meus momentos preferidos da semana, tanto nas
-													aulas quanto nos momentos em que eu estudava sozinha.
-													Larissa conseguiu tornar o aprendizado em algo leve, agradável e colorido.
-												</p>
-												<div class="testi-meta">
-													Michele de Souza
-													<span>Joinville/SC</span>
-												</div>
-											</div>
-										</div>
-										<div class="slide">
-											<div class="testi-content">
-												<p>Conheci a Larissa numa sala de aula, mas onde eu era a professora.
-													Como aluna, sempre se mostrou dedicada e bastante pró-ativa.
-													Quando eu soube que a Larissa ministrava aulas de idiomas, não pensei
-													duas vezes: quis ser sua aluna de inglês. A Larissa consegue combinar
-													suas habilidades como Designer e como professora de idiomas de uma
-													maneira simples, criativa e prazerosa. Assim são suas aulas: preparadas
-													de acordo com a demanda do aluno, totalmente personalizadas. Sem contar
-													com a paciência e flexibilidade, pois muitas das nossas aulas aconteceram
-													por Skype. Ou seja, não importa onde você esteja, a Larissa te dá todo
-													o suporte. As aulas também são um momento de troca de experiências,
-													pois a Larissa possui interesse pelos mais diversos assuntos e sempre
-													encontra algo em comum para conversar – em inglês, claro. Recomendo
-													para quem quer aprender ou praticar idiomas e ter uma experiência única.</p>
-												<div class="testi-meta">
-													Isadora Dickie
-													<span>Joinville/SC</span>
-												</div>
-											</div>
-										</div>
-										<div class="slide">
-											<div class="testi-content">
-												<p>Há dois anos resolvi estudar francês pois sabia que seria uma
-													experiência muito enriquecedora, o que eu não sabia é que seria
-													também muito divertido. Assim que conheci a Larissa, pela internet,
-													logo me identifiquei e não tive dúvidas que seria ela a minha
-													professora nessa nova etapa. Desde a primeira aula já amei a
-													atenção e dedicação comigo, o carinho no preparo das aulas, a
-													atenção aos detalhes... temos um material novo a cada semana,
-													com muitos exercícios, vídeos e histórias engraçadas. As aulas
-													nunca são monótonas! Não conheço a Larissa pessoalmente, mas
-													parece que somos amigas há anos. Me divirto muito nas aulas.
-													E aprendo, claro!</p>
-												<div class="testi-meta">
-													Bruna Pientznauer
-													<span>Rio de Janeiro/RJ</span>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-
-						</div>
-
-					</div>
-
-				</div>
-
-				<section id="section-services" class="page-section topmargin-lg">
-
-					<div class="heading-block center bottommargin-lg">
-						<h2>Serviços</h2>
-						<!--<span>List of some features included in Canvas.</span>-->
-					</div>
-
-					<div class="container clearfix">
-
-						<div class="col_one_third">
-							<div class="feature-box fbox-center fbox-effect nobottomborder">
-								<div class="fbox-icon">
-									<a href="#"><i class="icon icon-london"></i></a>
-								</div>
-								<h3>Inglês</h3>
-								<p>Inglês geral, para fins específicos ou conversação.</p>
-							</div>
-						</div>
-
-						<div class="col_one_third">
-							<div class="feature-box fbox-center fbox-effect nobottomborder">
-								<div class="fbox-icon">
-									<a href="#"><i class="icon icon-paris"></i></a>
-								</div>
-								<h3>Francês</h3>
-								<p>Francês do zero, para viagens ou conversação.</p>
-							</div>
-						</div>
-
-						<div class="col_one_third col_last">
-							<div class="feature-box fbox-center fbox-effect nobottomborder">
-								<div class="fbox-icon">
-									<a href="#"><i class="icon icon-translate"></i></a>
-								</div>
-								<h3>Traduções</h3>
-								<p>Traduções literais ou resumos traduzidos.</p>
-							</div>
-						</div>
-
-						<div class="clear"></div>
-
-					</div>
-
-					<!--<div class="divider divider-short divider-center topmargin-lg"><i class="icon-star3"></i></div>-->
-
-				</section>
-
-				<section id="section-pricing" class="page-section topmargin-lg">
-
-					<div class="heading-block center">
-						<h2>Preços</h2>
-						<!--<span>We offer Flexible Pricing Options.</span>-->
-					</div>
-
-					<div class="container clearfix">
-
-						<div class="pricing bottommargin clearfix">
-
-							<div class="col-md-4">
-
-								<div class="pricing-box">
-									<div class="pricing-title">
-										<h3>Reduzido</h3>
-									</div>
-									<div class="pricing-price">
-										<span class="price-unit">R$</span>180<span class="price-tenure">/mês</span>
-									</div>
-									<div class="pricing-features">
-										<ul>
-											<li><strong>4</strong> Aulas</li>
-											<li>Agenda <strong>flexível</strong></li>
-											<li>Reagendamento <strong>free</strong> até <strong>24h</strong> antes</li>
-											<li>Escolha data de pagamento</li>
-										</ul>
-									</div>
-									<div class="pricing-action">
-										<a data-toggle="modal"
-											data-target="#contactFormModal"
-											class="btn btn-danger btn-block btn-lg">Aula Experimental</a>
-									</div>
-								</div>
-
-							</div>
-
-							<div class="col-md-4">
-
-								<div class="pricing-box best-price">
-									<div class="pricing-title">
-										<h3>Ideal</h3>
-										<span>Mais Popular</span>
-									</div>
-									<div class="pricing-price">
-										<span class="price-unit">R$</span>320<span class="price-tenure">/mês</span>
-									</div>
-									<div class="pricing-features">
-										<ul>
-											<li><strong>8</strong> Aulas</li>
-											<li>Agenda <strong>flexível</strong></li>
-											<li>Reagendamento <strong>free</strong> até <strong>24h</strong> antes</li>
-											<li>Escolha data de pagamento</li>
-										</ul>
-									</div>
-									<div class="pricing-action">
-										<a data-toggle="modal"
-											data-target="#contactFormModal"
-											class="btn btn-danger btn-block btn-lg bgcolor border-color">Aula Experimental</a>
-									</div>
-								</div>
-
-							</div>
-
-							<div class="col-md-4">
-
-								<div class="pricing-box">
-									<div class="pricing-title">
-										<h3>Traduções</h3>
-									</div>
-									<div class="pricing-price">
-										<span>Sob Consulta</span>
-									</div>
-									<div class="pricing-features">
-										<ul>
-											<li>&nbsp</li>
-											<li>&nbsp</li>
-											<li>&nbsp</li>
-											<li>&nbsp</li>
-										</ul>
-									</div>
-									<div class="pricing-action">
-										<a href="#" class="btn btn-danger btn-block btn-lg">Orçamento</a>
-									</div>
-								</div>
-
-							</div>
-
-						</div>
-
-					</div>
-
-          <div class="divider divider-short divider-center topmargin-lg"></div>
-
-				</section>
-
-				<section id="section-contact" class="page-section">
-
-					<div class="heading-block title-center">
-						<h2>Contato</h2>
-						<span>Ainda em dúvida? Entre em contato!</span>
-					</div>
-
-					<div class="container clearfix">
-
-						<!-- Contact Info
-						============================================= -->
-						<div class="col_full nobottommargin clearfix">
-
-              <div class="col_one_fourth">
-                <div class="feature-box fbox-center fbox-bg fbox-plain">
-									<div class="fbox-icon">
-										<a><i class="icon-envelope2"></i></a>
-									</div>
-									<h3>Email<span class="subtitle">lariklober@gmail.com</span></h3>
-								</div>
+      <!-- About Section
+      ============================================= -->
+      <div id="about" class="section nomargin nobg page-section" style="padding: 150px 0">
+        <div class="container clearfix">
+          <div class="row clearfix">
+            <div class="col-sm-3 col-xs-6 hidden-xs">
+              <img src="images/about/maple_leaf.jpg" alt="">
+            </div>
+            <div class="col-sm-6 col-xs-12 center" style="padding: 0 50px;">
+              <div class="heading-block bottommargin-sm">
+                <h2>Salut Hi</h2>
               </div>
+              <p>Salut-Hi é um cumprimento usado em Montreal, no Canadá,
+                 onde coexistem o francês e o inglês. Em essência, a expressão 
+                 Salut-Hi convida o outro a escolher o idioma de uma conversa. 
+                 Assim são também nossas aulas: um convite a falar uma segunda língua, 
+                 de forma leve e descontraída, como em uma conversa entre amigos.
+              </p>
+              <img src="demos/barber/images/about/sign.png" alt="" width="200">
+            </div>
+            <div class="col-sm-3 col-xs-6 hidden-xs">
+              <img src="images/about/conversation.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
 
-							<div class="col_one_fourth">
-								<div class="feature-box fbox-center fbox-bg fbox-plain">
-									<div class="fbox-icon">
-										<a><i class="icon icon-whatsapp"></i></a>
-									</div>
-									<h3>WhatsApp<span class="subtitle">(47) 99268-1395</span></h3>
-								</div>
-							</div>
+      <!-- Service Page Section
+      ============================================= -->
+      <div id="service" class="section page-section nobg nopadding notopmargin clearfix">
+          
+        <div class="row common-height clearfix bottommargin">
 
-							<div class="col_one_fourth">
-								<div class="feature-box fbox-center fbox-bg fbox-plain">
-									<div class="fbox-icon">
-										<a><i class="icon-skype2"></i></a>
-									</div>
-									<h3>Skype<span class="subtitle">larissa.klober</span></h3>
-								</div>
-							</div>
+          <!-- Service Image
+          ============================================= -->
+          <div class="col-md-6 center col-padding parallax" style="background: url('images/services/computer.jpg') center center no-repeat; background-size: cover;" data-stellar-background-ratio="0.9">
+            <div class="vertical-middle dark">
+              <div class="heading-block center">
+                <h2 class="nott ls0" style="font-size: 54px">Como Trabalho</h2>
+              </div>
+            </div>
+          </div>
 
-							<div class="col_one_fourth col_last">
-								<div class="feature-box fbox-center fbox-bg fbox-plain">
-									<div class="fbox-icon">
-										<a href="http://www.facebook.com/saluthilang" target="_blank"><i class="icon-facebook2"></i></a>
-									</div>
-									<h3>Facebook<span class="subtitle">@saluthilang</span></h3>
-								</div>
-							</div>
+          <!-- Service Featured Boxes
+          ============================================= -->
+          <div class="col-md-6 col-padding" style="background-color: #F9F9F9">
+            <div>
+              <div class="row clearfix" style="padding: 20px 0">
+                <div class="col-md-10 col-sm-8 bottommargin">
+                  <div class="feature-box fbox-plain">
+                    <div class="fbox-icon">
+                      <img src="images/icons/exchange.svg" alt="">
+                    </div>
+                    <h3>Troca de experiências</h3>
+                    <p>Acredito que todos têm algo a ensinar e algo a aprender e
+                      sou apaixonada pela troca de conhecimento. Enquanto ensino
+                      idiomas, tenho a oportunidade de aprender com meus alunos sobre
+                      os mais variados assuntos.</p>
+                  </div>
+                </div>
+                <div class="col-md-10 col-sm-8 bottommargin">
+                  <div class="feature-box fbox-plain">
+                    <div class="fbox-icon">
+                      <img src="images/icons/conversation.svg" alt="">
+                    </div>
+                    <h3>Foco na comunicação</h3>
+                    <p>As aulas são focadas na comunicação, usando temas de interesse do aluno.
+                      Você aprende exatamente o que precisa para sua vida pessoal e profissional
+                      e pode aplicar o conteúdo em seu dia-a-dia, desde a primeira aula.</p>
+                  </div>
+                </div>
+                <div class="col-md-10 col-sm-8 bottommargin">
+                  <div class="feature-box fbox-plain">
+                    <div class="fbox-icon">
+                      <img src="images/icons/settings.svg" alt="">
+                    </div>
+                    <h3>Conteúdo personalizado</h3>
+                    <p>Aulas <strong>100% online</strong> por videoconferência e em horários flexíveis.
+                      Utilizo material próprio, desenvolvido individualmente para cada aluno, que
+                      conta com textos, vídeos, jogos, exercícios e discussões.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
-						</div><!-- Contact Info End -->
+        </div>
 
-					</div>
+        <div class="container topmargin-lg clearfix">
 
-				</section>
+          <!-- Service Category 1
+          ============================================= -->
+          <div class="col-sm-4 center bottommargin-lg">
+            <div class="feature-box fbox-center fbox-effect nobottomborder">
+              <div class="fbox-icon">
+                <a href="#services"><i class="icon icon-paris"></i></a>
+              </div>
+              <h3>Francês</h3>
+              <p>Francês do zero, para viagens ou conversação.</p>
+            </div>
+          </div>
 
-			</div>
+          <!-- Service Category 2
+          ============================================= -->  
+          <div class="col-sm-4 center bottommargin-lg">
+            <div class="feature-box fbox-center fbox-effect nobottomborder">
+              <div class="fbox-icon">
+                <a href="#services"><i class="icon icon-london"></i></a>
+              </div>  
+              <h3>Inglês</h3>
+              <p>Inglês geral, para fins específicos ou conversação.</p>
+            </div>  
+          </div>  
 
-		</section><!-- #content end -->
+          <!-- Service Category 3
+          ============================================= -->
+          <div class="col-sm-4 center bottommargin-lg">
+            <div class="feature-box fbox-center fbox-effect nobottomborder">
+              <div class="fbox-icon">
+                <a href="#services"><i class="icon icon-translate"></i></a>
+              </div>
+              <h3>Traduções</h3>
+              <p>Traduções literais ou resumos traduzidos.</p>
+            </div>
+          </div>
 
+        </div>
+      </div>
+            
+      <!-- Pricing Page Section
+      ============================================= -->
+      <div id="pricing" class="section nomargin page-section nobg clearfix">
+
+        <div class="container clearfix">
+          <div class="heading-block center clearfix">
+            
+            <img src="images/icons/wallet.svg" alt="" height="40" style="margin-bottom: 20px">
+            <h2>Preços</h2>
+          </div>
+
+          <div class="row clearfix">
+
+            <!-- 4 classes
+            ============================================= -->
+            <div class="col-md-4 col-sm-6 bottommargin">
+              <div class="iproduct">
+                <div class="product-image">
+                  <a href="#contact"><img class="image_fade" src="demos/barber/images/shop/2.jpg" alt="High-Heel Girl's Sandals"></a>
+                  <a href="#contact" class="shop-icon"><i class="icon-calendar2"></i></a>
+                </div>
+                <div class="product-desc center">
+                  <div class="product-price"><ins>R$200,00</ins></div>
+                  <div class="product-title"><h3><a href="#contact">4 Aulas</a></h3></div>
+                </div>
+              </div>
+            </div>
+
+
+            <!-- 8 classes
+            ============================================= -->
+            <div class="col-md-4 col-sm-6 bottommargin">
+              <div class="iproduct">
+                <div class="product-image">
+                  <a href="#contact"><img class="image_fade" src="demos/barber/images/shop/3.jpg" alt="High-Heel Girl's Sandals"></a>
+                  <div class="sale-flash">Recomendado*</div>
+                  <a href="#contact" class="shop-icon"><i class="icon-calendar2"></i></a>
+                </div>
+                <div class="product-desc center">
+                  <div class="product-price"><ins>R$360,00</ins></div>
+                  <div class="product-title"><h3><a href="#contact">8 Aulas</a></h3></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Translations
+            ============================================= -->
+            <div class="col-md-4 col-sm-6 bottommargin">
+              <div class="iproduct">
+                <div class="product-image">
+                  <a href="#contact"><img class="image_fade" src="images/prices/translation.jpg" alt="High-Heel Girl's Sandals"></a>
+                  <a href="#contact" class="shop-icon"><i class="icon-calculator"></i></a>
+                </div>
+                <div class="product-desc center">
+                  <div class="product-price"><ins>Solicite um Orçamento</ins></div>
+                  <div class="product-title"><h3><a href="#contact">Traduções</a></h3></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+ 
+      <!-- Testimonial Page Section
+      ============================================= -->
+      <div id="testimonial" class="section page-section parallax nobottompadding dark clearfix" style="background-image: url('images/wood.jpg'); background-size: cover;" data-stellar-background-ratio="0.8">
+        <div class="container clearfix">
+
+          <div class="heading-block center">
+            <!-- <img src="images/icons/stars.svg" alt="" height="50" style="margin-bottom: 20px"> -->
+            <h3 class="ls2">Testemunhos</h3>
+          </div>
+
+          <!-- Testimonial Slider
+          ============================================= -->
+          <div class="fslider testimonial testimonial-full nobgcolor noborder noshadow nopadding bottommargin-sm divcenter center clearfix" data-arrows="false" style="max-width: 700px">
+            <div class="flexslider">
+              <div class="slider-wrap">
+                <div class="slide">
+                  <div class="testi-content">
+                    <p>
+                      Larissa é uma professora muito comprometida com o planejamento das aulas. 
+                      O material utilizado é personalizado, sempre alinhado com minhas 
+                      necessidades de aprendizado. Além disso, as aulas têm ótima fluidez 
+                      e acontecem sempre com uma atmosfera leve e divertida em que eu sou 
+                      constantemente estimulado a me expressar. Eu sinto que progredi bastante 
+                      desde que começamos, por isso definitivamente a recomendo!!!
+                    </p>
+                    <div class="testi-meta">
+                      Rogers Rocha
+                      <span class="ls0">São Luís/MA</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide">
+                  <div class="testi-content">
+                    <p>
+                      Fiz aula com a professora Larissa por quase 1 ano,
+                      foi um período de muito aprendizado.
+                      Larissa sempre planejou as aulas e sempre trazia
+                      conteúdos que abordavam assuntos que me interessam,
+                      como yoga, meditação e viagens. Além das aulas planejadas,
+                      o que as tornava ainda mais interessantes eram os aplicativos,
+                      websites e canais do youtube que Larissa sempre indicava para
+                      que eu pudesse estudar sozinha. Dessa forma, estudar inglês se
+                      tornou um dos meus momentos preferidos da semana, tanto nas
+                      aulas quanto nos momentos em que eu estudava sozinha.
+                      Larissa conseguiu tornar o aprendizado em algo leve, agradável e colorido.
+                    </p>
+                    <div class="testi-meta">
+                      Michele de Souza
+                      <span class="ls0">Joinville/SC</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide">
+                  <div class="testi-content">
+                    <p>
+                      Conheci a Larissa numa sala de aula, mas onde eu era a professora.
+                      Como aluna, sempre se mostrou dedicada e bastante pró-ativa.
+                      Quando eu soube que a Larissa ministrava aulas de idiomas, não pensei
+                      duas vezes: quis ser sua aluna de inglês. A Larissa consegue combinar
+                      suas habilidades como Designer e como professora de idiomas de uma
+                      maneira simples, criativa e prazerosa. Assim são suas aulas: preparadas
+                      de acordo com a demanda do aluno, totalmente personalizadas. Sem contar
+                      com a paciência e flexibilidade, pois muitas das nossas aulas aconteceram
+                      por Skype. Ou seja, não importa onde você esteja, a Larissa te dá todo
+                      o suporte. As aulas também são um momento de troca de experiências,
+                      pois a Larissa possui interesse pelos mais diversos assuntos e sempre
+                      encontra algo em comum para conversar – em inglês, claro. Recomendo
+                      para quem quer aprender ou praticar idiomas e ter uma experiência única.
+                    </p>
+                    <div class="testi-meta">
+                      Isadora Dickie
+                      <span class="ls0">Joinville/SC</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide">
+                  <div class="testi-content">
+                    <p>
+                      Há dois anos resolvi estudar francês pois sabia que seria uma
+                      experiência muito enriquecedora, o que eu não sabia é que seria
+                      também muito divertido. Assim que conheci a Larissa, pela internet,
+                      logo me identifiquei e não tive dúvidas que seria ela a minha
+                      professora nessa nova etapa. Desde a primeira aula já amei a
+                      atenção e dedicação comigo, o carinho no preparo das aulas, a
+                      atenção aos detalhes... temos um material novo a cada semana,
+                      com muitos exercícios, vídeos e histórias engraçadas. As aulas
+                      nunca são monótonas! Não conheço a Larissa pessoalmente, mas
+                      parece que somos amigas há anos. Me divirto muito nas aulas.
+                      E aprendo, claro!
+                    </p>
+                    <div class="testi-meta">
+                      Bruna Pientznauer
+                      <span class="ls0">Rio de Janeiro/RJ</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="video-wrap" style="position: absolute; height: 100%; z-index: 1;">
+          <div class="video-overlay" style="background: rgba(0,0,0,0.7);"></div>
+        </div>
+
+      </div>
+
+      <!-- Teacher
+      ============================================= -->
+      <div class="section nobg nobottommargin topmargin-sm clearfix">
+          
+        <div class="container clearfix">
+
+          <div class="heading-block center">
+            <img src="images/icons/team.svg" alt="" height="50" style="margin-bottom: 20px">
+            <h3 class="ls2">Sobre Mim</h3>
+            <span>
+                Ensino inglês e francês há 7 anos e há 2 tenho me dedicado ao ensino via internet. 
+                Nesse período, tive a oportunidade de trabalhar com alunos de 6 a 60 anos, 
+                com os mais diferentes sonhos, habilidades e dificuldades. Descobri nesse percurso 
+                que cada pessoa é única e por isso defendo também um ensino único, onde cada um 
+                possa estudar no seu ritmo e de acordo com o conteúdo que vai realmente utilizar 
+                na sua vida.
+            </span>
+          </div>
+
+          <!-- Team 1
+          ============================================= -->
+          <div class="col-sm-4 bottommargin">
+          </div>
+
+          <!-- Team 2
+          ============================================= -->
+          <div class="col-sm-4 bottommargin">
+            <div class="team">
+              <div class="team-image">
+                <img src="images/larissa.jpg" alt="Larissa Klober">
+                <div class="team-overlay">
+                  <div class="team-social-icons">
+                    <a href="https://www.linkedin.com/in/larissaklober"
+                      class="social-icon si-rounded si-colored si-small si-linkedin" title="LinkedIn">
+                      <i class="icon-linkedin"></i>
+                      <i class="icon-linkedin"></i>
+                    </a>
+                  </div>
+                  <a href="#contact" class="button button-large button-color nothidden">Agendamento</a>
+                </div>
+              </div>
+              <div class="team-desc">
+                <div class="team-title"><h4>Larissa Klober</h4><span>Professora</span></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Team 3
+          ============================================= -->
+          <div class="col-sm-4 bottommargin">
+          </div>
+
+        </div>
+
+      </div>
+            
+      <!-- Contact Page Section
+      ============================================= -->
+      <div id="contact" class="row common-height page-section notoppadding clearfix">
+          
+        <!-- <div id="popular-dest-map" class="col-md-6 col-padding gmap hidden-xs"></div> -->
+        <div class="col-md-6 gmap">
+          <iframe src="https://www.google.com/maps/d/embed?mid=1sJXIKhb5xH8C266Mm-bsdpdbe9g" width="100%" height="100%"></iframe>
+        </div>
+
+        <div class="col-md-6 col-padding " style="background-color: #F9F9F9;">
+          <div class="max-height">
+            <h3 class="uppercase">Faça parte desse grupo</h3>
+            <div class="row topmargin-sm clearfix" style="font-size: 16px; line-height: 1.7;">
+              <div class="col-md-12">
+                <abbr><strong>WhatsApp:</strong></abbr> (47) 99268-1395<br>
+                <abbr><strong>Skype:</strong></abbr> larissa.klober<br>
+                <abbr><strong>Email:</strong></abbr> lariklober@gmail.com
+              </div>
+            </div>
+
+            <div class="contact-widget">
+
+              <div class="contact-form-result"></div>
+
+              <form class="nobottommargin" id="template-contactform" name="template-contactform" action="include/sendemail.php" method="post">
+
+                <div class="form-process"></div>
+
+                <div class="col_half">
+                  <input type="text" id="template-contactform-name" name="template-contactform-name" value="" class="sm-form-control border-form-control required" placeholder="*Nome" />
+                </div>
+                <div class="col_half col_last">
+                  <input type="email" id="template-contactform-email" name="template-contactform-email" value="" class="required email sm-form-control border-form-control" placeholder="*Endereço de Email" />
+                </div>
+
+                <div class="clear"></div>
+
+                <div class="col_one_third">
+                  <input type="text" id="template-contactform-phone" name="template-contactform-phone" value="" class="sm-form-control border-form-control" placeholder="Telefone" />
+                </div>
+
+                <div class="col_two_third col_last">
+                  <input type="text" id="template-contactform-subject" name="template-contactform-subject" value="" class="required sm-form-control border-form-control" placeholder="*Assunto" />
+                </div>
+
+                <div class="clear"></div>
+
+                <div class="col_full">
+                  <textarea class="required sm-form-control border-form-control" id="template-contactform-message" name="template-contactform-message" rows="7" cols="30" placeholder="*Sua mensagem"></textarea>
+                </div>
+
+                <div class="col_full nobottommargin">
+                  <button class="button button-large button-color noleftmargin topmargin-sm" type="submit" id="template-contactform-submit" name="template-contactform-submit" value="submit">Enviar Mensagem</button>
+                </div>
+
+                <div class="clear"></div>
+
+                <div class="col_full hidden">
+                  <input type="text" id="template-contactform-botcheck" name="template-contactform-botcheck" value="" class="sm-form-control" />
+                </div>
+
+              </form>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+ 
+      <!-- Promo Bar
+      ============================================= -->
+      <!-- <div class="section nomargin nopadding dark clearfix" style="background: url(images/bench_leafs.jpg) no-repeat 10% 50%; background-size: cover;">
+        <div class="button button-full nobg font-serif center" style="padding: 60px 0; cursor: default;">
+          <div class="container clearfix">
+            Aprenda <strong>Inglês e Francês</strong> no seu ritmo!
+          </div>
+        </div>
+      </div> -->
+
+    </section><!-- #content end -->
+        
 		<!-- Footer
 		============================================= -->
-		<footer id="footer" class="dark">
+		<footer id="footer" class="dark" style="background-color: #121212; padding: 60px 0">
+      
+      <div class="container clearfix">
 
-			<!-- Copyrights
-			============================================= -->
-			<div id="copyrights" >
+        <!-- Footer Widgets
+        ============================================= -->
+        <div class="footer-widgets-wrap center clearfix">
 
-				<div class="container">
+          <img src="images/slider-logo.svg" width="200" alt="">
 
-					<div class="col_half">
-						Copyright &copy; 2017 Salut Hi. Todos os direitos reservados.<br>
-					</div>
+          <div class="topmargin-lg clearfix">
+            <a href="https://www.facebook.com/saluthilang/" class="social-icon si-small si-rounded si-borderless inline-block si-facebook">
+              <i class="icon-facebook"></i>
+              <i class="icon-facebook"></i>
+            </a>
 
-					<div class="col_half col_last tright">
-						<div class="fright clearfix">
-							<a href="http://www.facebook.com/saluthilang" class="social-icon si-small si-borderless si-facebook">
-								<i class="icon-facebook"></i>
-								<i class="icon-facebook"></i>
-							</a>
-						</div>
+            <a href="https://www.instagram.com/salut.hi" class="social-icon si-small si-rounded si-borderless inline-block si-instagram">
+              <i class="icon-instagram"></i>
+              <i class="icon-instagram"></i>
+            </a>
+          </div>
 
-						<div class="clear"></div>
+          <div class="uppercase ls3" style="color: #333; margin-top: 10px">
+            &copy; Salut Hi. 2017. Todos os direitos reservados.
+          </div>
 
-						<i class="icon-envelope2"></i> lariklober@gmail.com <span class="middot">&middot;</span>
-            <i class="icon icon-whatsapp"></i> (47) 99268-1395 <span class="middot">&middot;</span>
-            <i class="icon-skype2"></i> larissa.klober
-					</div>
+        </div>
+      
+      </div>
+  
+    </footer><!-- #footer end -->
 
-				</div>
+  </div><!-- #wrapper end -->
 
-			</div><!-- #copyrights end -->
+  <!-- Go To Top
+  ============================================= -->
+  <div id="gotoTop" class="icon-angle-up"></div>
 
-		</footer><!-- #footer end -->
+  <!-- External JavaScripts
+  ============================================= -->
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/plugins.js"></script>
 
-	</div><!-- #wrapper end -->
 
-	<!-- Modal Contact Form
-	============================================= -->
-	<div class="modal fade" id="contactFormModal" tabindex="-1" role="dialog" aria-labelledby="contactFormModalLabel" aria-hidden="true">
-		<div class="modal-dialog">
-			<div class="modal-content">
-				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-					<h4 class="modal-title" id="contactFormModalLabel">Peça uma <span>Aula Experimental</span> gratuita</h4>
-				</div>
-				<div class="modal-body">
+  <!-- Footer Scripts
+  ============================================= -->
+  <script type="text/javascript" src="js/functions.js"></script>
 
-					<div class="contact-widget">
-						<div class="contact-form-result" data-notify-type="success" data-notify-msg="Mensagem enviada com sucesso!"></div>
-						<form class="nobottommargin" id="contactform"
-							name="contactform"
-							data-alert-type="notify"
-							data-loader="form"
-							action="https://formspree.io/felipewer@gmail.com"
-							method="post">
+  <!-- <script>
 
-							<div class="form-process"></div>
+    // Map Scripts
+    jQuery(window).load(function(){
 
-							<div class="col_half">
-								<label for="contactform-name">Nome <small>*</small></label>
-								<input type="text" id="contactform-name" name="nome" value="" class="sm-form-control required" />
-							</div>
-
-							<div class="col_half col_last">
-								<label for="contactform-email">Email <small>*</small></label>
-								<input type="email" id="contactform-email" name="email" value="" class="required email sm-form-control" />
-							</div>
-
-							<div class="clear"></div>
-
-							<div class="col_full hidden">
-								<input type="text" id="contactform-service" name="servico" value="" class="sm-form-control" />
-							</div>
-
-							<div class="col_full">
-								<label for="contactform-message">Mensagem</label>
-								<textarea class="sm-form-control"
-									id="contactform-message"
-									name="mensagem" rows="4" cols="30"></textarea>
-							</div>
-
-							<div class="col_half">
-								<button class="button button-3d nomargin"
-									type="button" id="contactform-submit-english"
-									name="contactform-submit-english"
-									onclick="requestClass('Inglês')">
-									<i class="icon icon-london"></i><span>Inglês</span>
-								</button>
-							</div>
-
-							<div class="col_half col_last">
-								<button class="button button-3d nomargin pull-right"
-									type="button" id="contactform-submit-french"
-									name="contactform-submit-french"
-									onclick="requestClass('Françês')">
-									<i class="icon icon-paris"></i><span>Francês</span>
-								</button>
-							</div>
-
-							<div class="clear"></div>
-
-						</form>
-
-					</div>
-
-				</div>
-			</div><!-- /.modal-content -->
-		</div><!-- /.modal-dialog -->
-	</div><!-- /.modal -->
-	<!-- Modal Contact Form End -->
-
-	<!-- Go To Top
-	============================================= -->
-	<div id="gotoTop" class="icon-angle-up"></div>
-
-	<!-- External JavaScripts
-	============================================= -->
-	<script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript" src="js/plugins.js"></script>
-
-	<!-- Footer Scripts
-	============================================= -->
-	<script type="text/javascript" src="js/functions.js"></script>
-
-	<script>
-		$(document).ready(function(){
-
-			window.requestClass = function(lang) {
-				$("#contactform-service").val(lang);
-				$("#contactform").trigger("submit");
-			}
-		})
-	</script>
+      jQuery('#popular-dest-map').gMap({
+        address: 'Brasil',
+        maptype: 'ROADMAP',
+        zoom: 4,
+        markers: [
+          {
+            address: "Joinville, Brasil",
+            icon: {
+              image: "demos/barber/images/map-marker.png",
+              iconsize: [32, 39],
+              iconanchor: [16,36]
+            }
+          },
+          {
+            address: "Florianópolis, Brasil",
+            icon: {
+              image: "demos/barber/images/map-marker.png",
+              iconsize: [32, 39],
+              iconanchor: [16,36]
+            }
+          }
+        ],
+        doubleclickzoom: false,
+        controls: {
+          panControl: false,
+          zoomControl: true,
+          mapTypeControl: false,
+          scaleControl: false,
+          streetViewControl: false,
+          overviewMapControl: false
+        },
+        styles: [
+      {elementType: 'geometry', stylers: [{color: '#333333'}]},
+      {elementType: 'labels.text.stroke', stylers: [{color: '#222222'}]},
+      {elementType: 'labels.text.fill', stylers: [{color: '#fc895c'}]},
+      {
+        featureType: 'administrative.locality',
+        elementType: 'labels.text.fill',
+        stylers: [{color: '#fc895c'}]
+      },
+      {
+        featureType: 'poi',
+        elementType: 'labels.text.fill',
+        stylers: [{color: '#fc895c'}]
+      },
+      {
+        featureType: 'poi.park',
+        elementType: 'geometry',
+        stylers: [{color: '#111111'}]
+      },
+      {
+        featureType: 'poi.park',
+        elementType: 'labels.text.fill',
+        stylers: [{color: '#000000'}]
+      },
+      {
+        featureType: 'road',
+        elementType: 'geometry',
+        stylers: [{color: '#a07c48'}]
+      },
+      {
+        featureType: 'road',
+        elementType: 'geometry.stroke',
+        stylers: [{color: '#a07c48'}]
+      },
+      {
+        featureType: 'road',
+        elementType: 'labels.text.fill',
+        stylers: [{color: '#a07c48'}]
+      },
+      {
+        featureType: 'road.highway',
+        elementType: 'geometry',
+        stylers: [{color: '#fc895c'}]
+      },
+      {
+        featureType: 'road.highway',
+        elementType: 'geometry.stroke',
+        stylers: [{color: '#fc895c'}]
+      },
+      {
+        featureType: 'road.highway',
+        elementType: 'labels.text.fill',
+        stylers: [{color: '#f3d19c'}]
+      },
+      {
+        featureType: 'transit',
+        elementType: 'geometry',
+        stylers: [{color: '#000000'}]
+      },
+      {
+        featureType: 'transit.station',
+        elementType: 'labels.text.fill',
+        stylers: [{color: '#fc895c'}]
+      },
+      {
+        featureType: 'water',
+        elementType: 'geometry',
+        stylers: [{color: '#222222'}]
+      },
+      {
+        featureType: 'water',
+        elementType: 'labels.text.fill',
+        stylers: [{color: '#222222'}]
+      },
+      {
+        featureType: 'water',
+        elementType: 'labels.text.stroke',
+        stylers: [{color: '#222222'}]
+      }
+      ]
+      });
+    });
+  </script> -->
 
 </body>
 </html>
