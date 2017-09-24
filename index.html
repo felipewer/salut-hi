@@ -567,22 +567,16 @@
       ============================================= -->
       <div id="contact" class="row common-height page-section notoppadding clearfix">
         
-        <div id="popular-dest-map" class="col-md-6 col-padding gmap hidden-xs"></div>
+        <div id="popular-dest-map" class="col-md-6 col-padding gmap"></div>
 
         <div class="col-md-6 col-padding " style="background-color: #F9F9F9;">
           <div class="max-height">
             <h3 class="uppercase">Faça parte desse grupo</h3>
             <div class="row topmargin-sm clearfix" style="font-size: 16px; line-height: 1.7;">
-              <div class="col-md-6">
-                <address style="line-height: 1.7;">
-                  <strong>Brasil:</strong><br>
-                  Joinville - Santa Catarina<br>
-                </address>
-              </div>
-              <div class="col-md-6">
+              <div class="col-md-12">
                 <abbr><strong>WhatsApp:</strong></abbr> (47) 99268-1395<br>
                 <abbr><strong>Skype:</strong></abbr> larissa.klober<br>
-                <abbr><strong>Email:</strong></abbr> lariklober@gmail.com
+                <abbr><strong>Email:</strong></abbr> lariklober@gmail.com<br>
               </div>
             </div>
             <br>
@@ -664,7 +658,7 @@
           </div>
 
           <div class="uppercase ls3" style="color: #333; margin-top: 10px">
-            &copy; Salut Hi. 2017. Todos os direitos reservados.
+            &copy; Salut Hi. Joinville, Brasil. 2017. Todos os direitos reservados.
           </div>
 
         </div>
@@ -725,7 +719,7 @@
       jQuery(window).load(function(){
         jQuery.getJSON('students.json', function(students){
           jQuery('#popular-dest-map').gMap({
-            address: 'Brazil',
+            address: 'Cabo Verde',
             maptype: 'ROADMAP',
             zoom: 3,
             markers: buildMarkers(students),
