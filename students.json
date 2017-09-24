@@ -1,0 +1,176 @@
+[
+  {
+    "position": {"lat": "-25.395", "lng": "-49.338"},
+    "address": "Curitiba, Brasil",
+    "name": "Caroline",
+    "language": "Francês"
+  },
+  {
+    "position": {"lat": "-25.398", "lng": "-49.261"},
+    "address": "Curitiba, Brasil",
+    "name": "Sandro",
+    "language": "Francês"
+  },
+  {
+    "position": {"lat": "-25.460", "lng": "-49.279"},
+    "address": "Curitiba, Brasil",
+    "name": "Aline",
+    "language": "Inglês"
+  },
+  {
+    "position": {"lat": "-27.592", "lng": "-48.505"},
+    "address": "Florianópolis, Brasil",
+    "name": "Juliana",
+    "language": "Inglês"
+  },
+  {
+    "position": {"lat": "-27.442", "lng": "-48.492"},
+    "address": "Florianópolis, Brasil",
+    "name": "Sergio",
+    "language": "Francês"
+  },
+  {
+    "position": {"lat": "-26.473", "lng": "-49.000"},
+    "address": "Guaramirim, Brasil",
+    "name": "Taciane",
+    "language": "Francês"
+  },
+  {
+    "position": {"lat": "-22.424", "lng": "-45.454"},
+    "address": "Itajubá, Brasil",
+    "name": "Thiago",
+    "language": "Francês"
+  },
+  {
+    "position": {"lat": "-26.286", "lng": "-48.906"},
+    "address": "Joinville, Brasil",
+    "name": "Isadora",
+    "language": "Inglês"
+  },
+  {
+    "position": {"lat": "-26.270", "lng": "-48.870"},
+    "address": "Joinville, Brasil",
+    "name": "Miriam",
+    "language": "Inglês"
+  },
+  {
+    "position": {"lat": "-26.248", "lng": "-48.814"},
+    "address": "Joinville, Brasil",
+    "name": "Michele",
+    "language": "Francês"
+  },
+  {
+    "position": {"lat": "-26.295", "lng": "-48.854"},
+    "address": "Joinville, Brasil",
+    "name": "Gustavo",
+    "language": "Francês"
+  },
+  {
+    "position": {"lat": "-26.298", "lng": "-48.815"},
+    "address": "Joinville, Brasil",
+    "name": "Aline",
+    "language": "Inglês"
+  },
+  {
+    "position": {"lat": "-26.328", "lng": "-48.853"},
+    "address": "Joinville, Brasil",
+    "name": "Bruno",
+    "language": "Inglês"
+  },
+  {
+    "position": {"lat": "-26.321", "lng": "-48.806"},
+    "address": "Joinville, Brasil",
+    "name": "Gabriela",
+    "language": "Francês"
+  },
+  {
+    "position": {"lat": "-26.332", "lng": "-48.869"},
+    "address": "Joinville, Brasil",
+    "name": "Maicon",
+    "language": "Inglês"
+  },
+  {
+    "position": {"lat": "-26.329", "lng": "-48.843"},
+    "address": "Joinville, Brasil",
+    "name": "Michele",
+    "language": "Inglês"
+  },
+  {
+    "position": {"lat": "-26.345", "lng": "-48.847"},
+    "address": "Joinville, Brasil",
+    "name": "Hiélina",
+    "language": "Francês"
+  },
+  {
+    "position": {"lat": "-26.350", "lng": "-48.794"},
+    "address": "Joinville, Brasil",
+    "name": "Patricia",
+    "language": "Inglês"
+  },
+  {
+    "position": {"lat": "-26.204", "lng": "-48.906"},
+    "address": "Joinville, Brasil",
+    "name": "Paulo",
+    "language": "Inglês"
+  },
+  {
+    "position": {"lat": "-22.830", "lng": "-43.078"},
+    "address": "São Gonçalo, Brasil",
+    "name": "Bruna",
+    "language": "Francês"
+  },
+  {
+    "position": {"lat": "-30.032", "lng": "-51.211"},
+    "address": "Porto Alegre, Brasil",
+    "name": "Daniela",
+    "language": "Inglês"
+  },
+  {
+    "position": {"lat": "-21.173", "lng": "-47.810"},
+    "address": "Ribeirão Preto, Brasil",
+    "name": "Felipe",
+    "language": "Francês"
+  },
+  {
+    "position": {"lat": "41.880", "lng": "12.503"},
+    "address": "Roma, Itália",
+    "name": "Jeferson",
+    "language": "Inglês"
+  },
+  {
+    "position": {"lat": "-27.597", "lng": "-48.608"},
+    "address": "São José, Brasil",
+    "name": "Pedro",
+    "language": "Francês"
+  },
+  {
+    "position": {"lat": "-2.527", "lng": "-44.294"},
+    "address": "São Luís, Brasil",
+    "name": "Rogers",
+    "language": "Francês"
+  },
+  {
+    "position": {"lat": "-23.579", "lng": "-46.632"},
+    "address": "São Paulo, Brasil",
+    "name": "Daniel",
+    "language": "Francês"
+  },
+  {
+    "position": {"lat": "-23.503", "lng": "-46.626"},
+    "address": "São Paulo, Brasil",
+    "name": "Thiago",
+    "language": "Francês"
+  },
+  {
+    "position": {"lat": "-23.602", "lng": "-46.724"},
+    "address": "São Paulo, Brasil",
+    "name": "Presley",
+    "language": "Inglês"
+  },
+  {
+    "position": {"lat": "48.778", "lng": "9.161"},
+    "address": "Stuttgart, Alemanha",
+    "name": "Ludmila",
+    "language": "Francês"
+  }
+]
