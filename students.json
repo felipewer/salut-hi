@@ -172,5 +172,11 @@
     "address": "Stuttgart, Alemanha",
     "name": "Ludmila",
     "language": "Francês"
+  },
+  {
+    "position": {"lat": "30.350", "lng": "-81.665"},
+    "address": "Jacksonville, Estados Unidos",
+    "name": "Guttemberg",
+    "language": "Inglês"
   }
 ]
