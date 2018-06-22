@@ -178,5 +178,59 @@
     "address": "Jacksonville, Estados Unidos",
     "name": "Guttemberg",
     "language": "Inglês"
+  },
+  {
+    "position": {"lat": "-27.546", "lng": "-48.498"},
+    "address": "Florianópolis, Brasil",
+    "name": "Flávio",
+    "language": "Inglês"
+  },
+  {
+    "position": {"lat": "-26.975", "lng": "-53.639"},
+    "address": "Tunápolis, Brasil",
+    "name": "Mariane",
+    "language": "Inglês"
+  },
+  {
+    "position": {"lat": "-26.293", "lng": "-48.848"},
+    "address": "Joinville, Brasil",
+    "name": "Vanessa",
+    "language": "Francês"
+  },
+  {
+    "position": {"lat": "-26.255", "lng": "-48.820"},
+    "address": "Joinville, Brasil",
+    "name": "Fernando",
+    "language": "Inglês"
+  },
+  {
+    "position": {"lat": "-26.275", "lng": "-48.832"},
+    "address": "Joinville, Brasil",
+    "name": "Rejane",
+    "language": "Inglês"
+  },
+  {
+    "position": {"lat": "-26.285", "lng": "-48.850"},
+    "address": "Joinville, Brasil",
+    "name": "Anna",
+    "language": "Português"
+  },
+  {
+    "position": {"lat": "-26.305", "lng": "-48.826"},
+    "address": "Joinville, Brasil",
+    "name": "Rosa",
+    "language": "Inglês"
+  },
+  {
+    "position": {"lat": "-26.308", "lng": "-48.850"},
+    "address": "Joinville, Brasil",
+    "name": "Rafaella",
+    "language": "Inglês"
+  },
+  {
+    "position": {"lat": "-27.479", "lng": "-48.415"},
+    "address": "Florianópolis, Brasil",
+    "name": "Douglas",
+    "language": "Inglês"
   }
 ]
