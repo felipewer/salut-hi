@@ -232,5 +232,11 @@
     "address": "Florianópolis, Brasil",
     "name": "Douglas",
     "language": "Inglês"
+  },
+  {
+    "position": {"lat": "-5.885", "lng": "-35.172"},
+    "address": "Natal, Brasil",
+    "name": "Vivian",
+    "language": "Francês"
   }
 ]
