@@ -238,5 +238,28 @@
     "address": "Natal, Brasil",
     "name": "Vivian",
     "language": "Francês"
+},
+  {
+    "position": {"lat": "-22.936", "lng": "-43.177"},
+    "address": "Rio de Janeiro, Brasil",
+    "name": "Mariani",
+    "language": "Inglês"
+},
+  {
+    "position": {"lat": "39.473", "lng": "-0.377"},
+    "address": "Valencia, Espanha",
+    "name": "Diego",
+    "language": "Inglês"},
+  {
+    "position": {"lat": "52.507", "lng": "13.387"},
+    "address": "Berlim, Alemanha",
+    "name": "Andrea",
+    "language": "Inglês"
+},
+  {
+    "position": {"lat": "-22.429", "lng": "-45.462"},
+    "address": "Itajubá, Brasil",
+    "name": "Moisés",
+    "language": "Inglês"
   }
 ]
